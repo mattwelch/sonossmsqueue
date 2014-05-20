@@ -1,0 +1,31 @@
+{
+  "name": "sonossmsqueue",
+  "version": "0.0.1",
+  "description": "An app to allow guests to add songs from Rdio to a Sonos queue via Twilio SMS.",
+  "main": "sonossmsqueue.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mattwelch/sonossmsqueue.git"
+  },
+  "keywords": [
+    "sms",
+    "twilio",
+    "rdio",
+    "sonos",
+    "queue"
+  ],
+  "author": "Matt Welch <matt@welcher.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattwelch/sonossmsqueue/issues"
+  },
+  "homepage": "https://github.com/mattwelch/sonossmsqueue",
+  "dependencies": {
+    "node-rdio": "^0.1.1",
+    "express": "^4.2.0",
+    "body-parser": "^1.2.0",
+    "twilio": "^1.6.0",
+    "sqlite3": "^2.2.3",
+    "sonos-discovery": "git+https://github.com/jishi/node-sonos-discovery.git#master"
+  }
+}
