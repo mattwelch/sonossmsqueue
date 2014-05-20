@@ -12,8 +12,11 @@ Get an Rdio [developer account](http://www.rdio.com/developers/). This will actu
 There are four environment variables the code calls for:
 
 1: `RDIO_USER_NAME`: Your Rdio username (usually your email address)
+
 2: `RDIO_KEY`: Your Rdio client key
+
 3: `RDIO_SECRET`: Your Rdio client secret
+
 4: `TWILIO_AUTH_TOKEN`: Your Twilio Auth token
 
 You can either set these with the traditional `export` method in your `.bashrc` (or similar), or you can just set them all at the same time before executing the sonossmsqueue script:
