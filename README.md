@@ -1,5 +1,5 @@
 ## Overview
-Use SMS to add songs from Rdio to a Sonos queue. Required is a twilio account, an Rdio account, an Rdio dev account, and a Sonos. Check out this blog post for a [quick video demo](http://mattwel.ch/adding-songs-to-sonos-queue-with-sms).
+Use SMS to add songs from Rdio to a Sonos queue. Required is a twilio account, an Rdio account, an Rdio dev account, and a Sonos. Check out this blog post for a [quick video demo](http://mattwel.ch/adding-songs-to-sonos-queue-via-sms/).
 ## Setup
 Clone this repo, and execute `npm install` inside the created directory. This may take a while, as the sqlite3 package will possibly be compiled on your machine.
 
